@@ -1,0 +1,9 @@
+mqtt:
+  cleanSession: false
+  serverURIs:
+    - tcp://103.170.123.35:1883
+  async: true
+  completionTimeout: 20000
+  keepAliveInterval: 30
+  clientId: mqttPubClient
+  defaultQos: 1
